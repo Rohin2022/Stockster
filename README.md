@@ -1,6 +1,8 @@
 # Stockster
 An efficient, data-driven approach to monitoring the stock market.
 
+In order to run the code, create a new react app using CRA. Then move all of the files from this repository (excluding the one python file) into the src folder of the newly created project (remove all files). Next, create a parent directory and move the entire react app (CRA creates a new directory) into said parent directory. Next, move the python file into the parent directory and run the python code. Lastly, run the javascript with npm start. 
+
 ## Inspiration
 The stock market is highly volatile, however, those who are able to successfully identify patterns and better understand its behavior can reap various economic benefits. Stockster seeks to provide resources to assist the average person, and **increase the accessibility** of the stock market for the general populace.
 
