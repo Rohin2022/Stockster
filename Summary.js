@@ -22,7 +22,7 @@ export default function Summaries(props) {
     const [dialogOpen, setDialogOpen] = useState(-1)
 
     useEffect(() => {
-        axios.get(`https://www.alphavantage.co/query?function=NEWS_SENTIMENT&tickers=${props.company}&topics=technology&apikey=${Math.random()>0.33 ? Math.random()>0.33 ? "8653GXMTQMJEI3CN": "5LMPPLKCHZIFE7RR": "HZ8MT4IZHF3FGO2A"}`)
+        axios.get(`https://www.alphavantage.co/query?function=NEWS_SENTIMENT&tickers=${props.company}&topics=technology&apikey="HZ8MT4IZHF3FGO2A"`)
             .then((data) => {
                 console.log(data)
                 const feed = data.data["feed"].slice(0, 4)
